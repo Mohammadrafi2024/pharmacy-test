@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-list{
+    background-color: rgb(196, 224, 224);
+}
+.list{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding-left: 900px;
+    gap: 50px;
+    position: relative;
+    margin-top: 0;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color:white
+}
+.container{
+    display: flex;
+    background-color: rgb(195, 237, 237)
+    
+
+}
+.grid-container{
+    display: grid;
+     grid-template-rows: 1fr ;
+    grid-template-columns: 1fr;
+    background-color: rgb(185, 228, 228);
+
+}
+.product-section{
+    background-color: rgb(156, 186, 176);
+    display: flex;
+
+}
+.php{
+    display: inline-flex;}
+    *{
+        margin: 0;
+        padding: 0;
+    color: rgb(237, 230, 230);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        color: black;
+    
+    }
+    footer{
+    
+        padding-top: 50px;
+    }
+    .contain{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        width:190px ;
+        margin:auto ;
+        padding:7px ;
+
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .listlinks{
+        padding: 0;
+    }
+    .listlinks li{
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position: relative;
+    }
+    .listlinks li::before{
+        content: '';
+        position:absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top:100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .listlinks li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .bottom-bar{
+        
+    
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+        text-align: end;
+    }
